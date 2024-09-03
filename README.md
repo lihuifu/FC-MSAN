@@ -9,7 +9,6 @@ These are source code and experimental setup for the ISRUC-S3 dataset.
 We evaluate our model on the ISRUC-Sleep-S3 and ISRUC-Sleep-S1 dataset.
 
 - The **ISRUC-Sleep-S3** dataset is available [here](https://sleeptight.isr.uc.pt/), and we provide the pipeline to run MKSTGCN on it.
-- The **MASS-SS3** dataset is an open-access and collaborative database of laboratory-based polysomnography (PSG) recordings. Information on how to obtain it can be found [here](http://massdb.herokuapp.com/en/).
 
 ## How to run
 
