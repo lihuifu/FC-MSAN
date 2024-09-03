@@ -14,7 +14,7 @@ We evaluate our model on the ISRUC-Sleep-S3 and ISRUC-Sleep-S1 dataset.
 
 - **1. Get Dataset:**
   
-  You can download ISRUC-Sleep-S3 dataset by the following command, which will automatically download the raw data and extracted data to `./data/ISRUC_S3/`:
+  You can download ISRUC-Sleep-S3 dataset, which download the raw data and extracted data to `./data/ISRUC_S3/`:
 
 - **2. Data preparation:**
 
@@ -37,7 +37,7 @@ We evaluate our model on the ISRUC-Sleep-S3 and ISRUC-Sleep-S1 dataset.
   Run `python train_FC_MSAN.py` with -c and -g parameters. After this step, the features learned by a feature net will be stored.
 
   + -c: The configuration file.
-  + -g: The number of the GPU to use. E.g.,`0`. Set this to`-1` if only CPU is used.
+  + -g: The number of the GPU to use. E.g.,`0`.
 
   ```shell
   python train_FC_MSAN.py -c ./config/ISRUC.config -g 0
